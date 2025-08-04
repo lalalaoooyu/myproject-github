@@ -3,6 +3,7 @@ name: Python Test
 on:
   push:
   pull_request:
+  workflow_dispatch:  # ← 加这一行，支持手动触发！
 
 jobs:
   test:
